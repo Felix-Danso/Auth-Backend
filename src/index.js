@@ -62,7 +62,7 @@ app.post("/login", async (req, res) => {
            res.send("wrong Password") 
         }
     }catch{
-        res.send("wrong Details")
+        res.send("wrong Detail")
     }
 })
 
